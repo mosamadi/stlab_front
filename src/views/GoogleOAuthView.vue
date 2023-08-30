@@ -32,7 +32,7 @@ export default {
 
       if (res.status === 200) {
         localStorage.setItem("token", data.authorization.token);
-        router.push({ name: "about" });
+        router.push({ name: "notification" });
       } else if (res.status === 422) {
         router.push({ name: "home" });
       }

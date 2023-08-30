@@ -13,8 +13,8 @@ const routes = [
     component: GoogleOAuthView,
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/notification",
+    name: "notification",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
